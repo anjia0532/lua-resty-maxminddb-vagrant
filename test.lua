@@ -9,6 +9,6 @@ path = "/?ip=" .. ip
 return wrk.format(nil, path)
 end
 
-response = function(status,header,body)
-logfile:write("\nbody:" .. body .. "\n-----------------");
-end
+-- response = function(status,header,body)
+-- logfile:write("\nbody:" .. body .. "\n-----------------");
+-- end

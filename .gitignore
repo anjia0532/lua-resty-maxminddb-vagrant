@@ -41,4 +41,4 @@ luac.out
 
 .vagrant/
 *.log
-
+.vscode/

@@ -11,10 +11,13 @@ sudo add-apt-repository -y "deb http://openresty.org/package/ubuntu $(lsb_releas
 # add git ppa repo
 sudo add-apt-repository ppa:git-core/ppa -y
 
+# add maxmind ppa repo
+sudo add-apt-repository ppa:maxmind/ppa
+
 # to update the APT index:
 sudo apt-get update
 # install depends soft
-sudo apt-get install -y openresty build-essential libssl-dev git htop
+sudo apt-get install -y openresty build-essential libssl-dev git htop libmaxminddb0 libmaxminddb-dev mmdb-bin geoipupdate
 
 # code by https://stackoverflow.com/a/63748803/7001350 
 # download GeoLite2-City database file
