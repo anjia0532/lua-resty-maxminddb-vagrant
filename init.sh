@@ -38,4 +38,3 @@ sudo /usr/local/openresty/bin/openresty -s reload
 
 sudo cp /vagrant/* /tmp/
 sudo chmod +x /tmp/wrk
-EOF
